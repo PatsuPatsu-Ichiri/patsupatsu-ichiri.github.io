@@ -5,33 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>网站已搬迁 · 霸中GakuseiHouse</title>
     
-<link rel="stylesheet" href="css/generall.css">
-<link rel="stylesheet" href="css/nothing.css">
+    <link rel="stylesheet" href="css/generall.css">
+    <link rel="stylesheet" href="css/nothing.css">
     
+    <style>
+        /* 简单的顶栏样式 */
+        .top-bar {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 14px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            box-sizing: border-box;
+        }
+        .top-bar a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .top-bar a:hover {
+            text-decoration: underline;
+        }
+        /* 让卡片不被顶栏挡住 */
+        .construction-card {
+            margin-top: 80px;
+        }
+    </style>
 </head>
 <body>
 
+    <!-- 顶栏 -->
+    <div class="top-bar">
+        <span> 霸中GakuseiHouse（旧站）</span>
+        <a href="http://8thcommittee.cc.cd">前往新站 →</a>
+    </div>
+
     <div class="construction-card">
-        <!-- 图标 -->
         <div class="icon-wrapper">
             <span>🚧</span>
         </div>
 
-        <!-- 主标题 -->
         <div class="title">我们已经架设了新的站点,<em>该网站已关停。</em></div>
 
-        <!-- 英文副标题 (We are building hard!) -->
         <div class="subtitle-en">The site has been migrated.</div>
 
-        <!-- 描述 -->
         <p class="sub-desc">
             该网站将停止更新，但是您也可以前往我们新的校站，以继续浏览。<br />
         </p>
-        <p class="sub-desc">点击下方按钮，前往霸中Kivotos——The 8th Committee</p<>
+        <p class="sub-desc">点击下方按钮，前往霸中Kivotos——The 8th Committee</p>
 
-        <a href="http://8thcommittee.cc.cd" class="btn-back">霸中Kivotos—></a>
-
-        
+        <a href="http://8thcommittee.cc.cd" class="btn-back">霸中Kivotos→</a>
     </div>
 
 </body>
